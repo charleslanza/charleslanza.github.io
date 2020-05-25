@@ -1,42 +1,140 @@
-<style>
-
-#img-div {
-    width: auto;
-    height: auto;
-    max-width: 379px;
-}
-
-#image {
-    width: 100%;
-    height: auto;
-    max-width: 262px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.top {
+  background-color: yellow;
+  padding: 10px;
 }
 
 #title {
   text-align: center;
+  color: blue;
+  font-family: Roboto;
+  background-color: yellow;
 }
 
 #description {
   text-align: center;
+  color: red;
+  font-family: Open Sans;
+  margin-bottom: 15px;
+  background-color: yellow;
 }
 
-#img-caption {
+#survey-form {
+  color: green;
+  font-family: Open Sans;
+  padding: 10px;
+  background-color: red;
+  width: 750px;
+  margin: 0 auto;
+  
+}
+
+#name-label {
+  position: relative;
+  top: -5px;
+  
+}
+
+#name {
+    font-family: Open Sans;
+    width: 725px;
+}
+
+#email-label {
+  position: relative;
+  top: 5px;
+}
+
+#email {
+    font-family: Open Sans;
+    width: 725px;
+    position: relative;
+    top: 10px;
+    
+
+}
+
+#number-label {
+  position: relative;
+  top: 15px;
+}
+
+#number {
+    font-family: Open Sans;
+    width: 725px;
+    position: relative;
+    top: 20px;   
+}
+
+#selections {
+    position: relative;
+    top: 30px;
+}
+
+#dropdown {
+    font-family: Open Sans;
+    width: 730px;
+  position: relative;
+  top: 35px;
+}
+
+/* Eating Occasions Styling */
+.occasions {
+  position: relative;
+  top: 45px;
+}
+#eating-during {
+  position: relative;
+  top: 40px;
+}
+
+/* Additional Flavors Styling */
+
+#additional-flavors {
+  position: relative;
+  top: 55px;
+}
+
+.additionals {
+  position: relative;
+  top: 60px;
+}
+
+/* Suggestion Box Styling */
+
+.write-in {
   text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  top: 60px;
+}
+
+#suggestions {
+  position: relative;
+  top: 10px;
+  width: 700px;
+  height: 100px;
+}
+
+
+/* Submit Button Styling */
+
+.button-holder {
+  position: relative;
+  bottom: -10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
 
 }
 
-#tribute-info {
+#submit {
+  width: 650px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
   text-align: center;
 }
-
-#list-of-books {
-  text-align : center;
-}
-
-#link-to-more {
-  text-align: center;
-}
-</style>
