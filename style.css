@@ -1,0 +1,42 @@
+<style>
+
+#img-div {
+    width: auto;
+    height: auto;
+    max-width: 379px;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 262px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+#img-caption {
+  text-align: center;
+
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+#list-of-books {
+  text-align : center;
+}
+
+#link-to-more {
+  text-align: center;
+}
+</style>
